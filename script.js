@@ -1,36 +1,16 @@
-function readMore(){
-    var readMore = document.getElementById("read-more")
-    var moreText = document.getElementById("more-txt")
-    var btnTxt = document.getElementById("blog-btn")
+/*code the contact us section */
 
-    console.log("meeee")
+function submitBtn(){
+  let fname=document.getElementById("fname").value;
+  let email1=document.getElementById("email1").value;
+  let textarea1=document.getElementById("exampleFormControlTextarea1").value;
 
-    if (readMore.style.display === "none") {
-        readMore.style.display = "inline";
-        btnTxt .innerHTML = "Read more"; 
-        moreText.style.display = "none";
-      } else {
-        readMore.style.display = "none";
-        btnTxt .innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-      }
-}
+  if(fname !="" && email1!="" && textarea1 !=""){
 
+    alert("Email submitted. Thank you for Reaching out to us.")
 
-function readMoreTwo(){
-    var readMore = document.getElementById("read-more-two")
-    var moreText = document.getElementById("more-txt-two")
-    var btnTxt = document.getElementById("blog-btn-two")
-
-    console.log("meeee")
-
-    if (readMore.style.display === "none") {
-        readMore.style.display = "inline";
-        btnTxt .innerHTML = "Read more"; 
-        moreText.style.display = "none";
-      } else {
-        readMore.style.display = "none";
-        btnTxt .innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-      }
+  }
+  else{
+    alert("Fill all the empty fields");
+  }
 }
