@@ -25,3 +25,12 @@ h1{
 .blog-section{
     padding: 2vh 0;
 }
+
+#read-more{
+    color: blue;
+    text-decoration: underline;
+}
+
+#more-txt-one, #more-txt-two{
+    display: none;
+}
