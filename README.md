@@ -3,11 +3,11 @@ Portfolio website - collaboration mockup
 [Click to view]()
 
 ## Contributor
-Emmaculate Kamau
-Charmain Bonareri
-Jackline Njoroge
-Lavender Odidi
-Ann Wangui
+1. Emmaculate Kamau
+2. Charmain Bonareri
+3. Jackline Njoroge
+4. Lavender Odidi
+5. Ann Wangui
 
 ## Technologies used
 
