@@ -6,6 +6,10 @@ h1{
     text-align: center;
 }
 
+.blog-btn{
+    margin: 0 16vw;
+}
+
 .blog-img{
     height: 20em;
     width: auto;
@@ -17,7 +21,6 @@ h1{
     padding: 1em 3em;
 }
 
-
 .blog-heading{
     text-align: center;
 }
@@ -26,11 +29,6 @@ h1{
     padding: 2vh 0;
 }
 
-#read-more{
-    color: blue;
-    text-decoration: underline;
-}
-
-#more-txt-one, #more-txt-two{
+#more-txt, #more-txt-two{
     display: none;
 }
